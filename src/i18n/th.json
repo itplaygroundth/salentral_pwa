@@ -1,0 +1,132 @@
+{
+  "auth": {
+    "agree": "ตกลง",
+    "alreadyJoined": "พร้อมใช้งาน?",
+    "createAccount": "สร้างบัญชี",
+    "createNewAccount": "สร้างบัญชีใหม่",
+    "email": "Email",
+    "login": "เข้าสู่ระบบ",
+    "password": "รหัสผ่าน",
+    "signUp": "สมัครใช้งาน",
+    "termsOfUse": "Terms of Use.",
+    "welcome": "ป้อนข้อมูลเพื่อเข้าระบบ",
+    "logged":"เข้าสู่ระบบสำเร็จ!"
+  },
+  "breadcrumbs": {
+    "home": "หน้าแรก"
+  },
+   "language": {
+    "brazilian_portuguese": "Português",
+    "thai": "ไทย",
+    "english": "อังกฤษ",
+    "spanish": "Spanish"
+  },
+  "menu":{
+  "submenu":[
+  {
+  "title": "ขาย",
+  "icon":"receipt",
+  "group": "ขาย",
+  "name":"sale",
+  "show":true,
+  "mshow":false,
+  "items": [
+    {"icon":"lock","color":"green","name":"เปิดกะ/ปิดกะ","link":"Openregister","child":true,"menu":[] },
+    {"icon":"lock","color":"blue","name":"ประวัติการขาย","link":""},
+    {"icon":"lock","color":"red","name":"บริหารเงินขาย","link":""}
+  ]
+},
+{
+  "title": "สินค้า",
+  "icon":"drag_indicator",
+  "group": "สินค้า",
+  "name":"products",
+  "show":true,
+  "mshow":true,
+  "items": [
+    {"icon":"storage","color":"blue","name":"รายการสินค้า","link":"product","child":false},
+    {"icon":"autorenew","color":"red","name":"บริหารสินค้า","link":"productcontrol","child":true,
+      "menu":[
+        { "link":"orderproduct","name":"สั่งสินค้า","root":"productcontrol" },
+        { "link":"","name":"ตรวจนับสินค้า"},
+        { "link":"","name":"ส่งสืนค้าคืน"},
+        { "link":"","name":"โอนสินค้า"},
+        { "link":"","name":"เบิกใช้สินค้า"}
+        ]}
+  ]
+},
+{"icon":"account_circle","title":"ลูกค้า","show":true,"mshow":true},
+{"icon":"pie_chart","title":"รายงาน","show":true,"mshow":true},
+{
+  "icon":"settings",
+  "title":"จัดการระบบ",
+  "show":true,
+  "mshow":true,
+  "group": "จัดการระบบ",
+  "name":"settings",
+  "items":[
+    {"icon":"dns","color":"blue","name":"ค่าเริ่มต้น","link":"setting","child":false},
+    {"icon":"account_balance","color":"red","name":"คลังสินค้า","link":"warehouse","child":false}
+  ]
+}
+]},
+"Openregister": 
+{
+  "docdate":"กำหนดวันที่",
+  "cashdraw":"จำนวนเงิน"
+}
+,
+  "menus":{
+    "pos": "POS",
+    "openregister":"เปิดกะ/ปิดกะ",
+    "salehistory":"ประวัติการขาย",
+    "cashmanage":"บริหารเงินขาย",
+    "stock": "สินค้า",
+    "product":"สินค้า",
+    "stockcontrol": "บริหารสินค้า",
+    "promotion":"โปรโมชั่น",
+    "pricelist":"ตารางราคา",
+    "suppliers":"ผู้จำหน่าย",
+    "producttags":"แท็กสินค้า",
+    "customers":"ลูกค้า",
+    "customer":"ลูกค้า",
+    "customergroup":"กลุ่มลูกค้า",
+    "reports":"รายงาน",
+    "registerreport":"รายงานการเปิด/ปิดกะ",
+    "salereport":"รายงานการขาย",
+    "stockreport":"รายงานสินค้า",
+    "receiptreport":"รายงานรับชำระ"
+    },
+    "user": {
+      "language": "เปลี่ยนภาษา",
+      "logout": "ออกจากระบบ",
+      "switch": "สลับผู้ใช้"
+    },
+   
+    "button":{
+        "save":"บันทึก : F10",
+        "cancel":"ยกเลิก : ESC"
+      }
+    ,"label":
+    {
+      "orderproduct":{"title1":"วันที่","title2":"รหัสคู่ค้า/เลขที่เอกสาร","docno":"เลขที่เอกสาร","docdate":"วันที่เอกสาร","apcode":"รหัสคู่ค้า","apname":"ชื่อคู่ค้า","duedate":"วันครบกำหนด"},
+      "product":{"title1":"รายการสินค้า","title2":"รหัสคู่ค้า/เลขที่เอกสาร","newitem":"เพิ่มรายการ","edititem":"แก้ไขรายการ","docdate":"วันที่เอกสาร","apcode":"รหัสคู่ค้า","apname":"ชื่อคู่ค้า","duedate":"วันครบกำหนด",
+        "headers":[
+        {"text":"รหัสสินค้า", "value": "code","show":true, "sortable": true },
+        {"text":"ชื่อสินค้า", "value": "name1","show":true, "sortable": false },
+        {"text":"วันที่รับล่าสุด","value":"lastbuydate","show":true, "sortable": false },
+        {"text":"วันที่ขายล่าสุด","value":"lastsaledate","show":true,"sortable": false },
+        {"text":"tags","value":"tags","show":true,"sortable": false },
+        {"text":"ยี่ห้อ","value":"brandcode","show":true,"sortable": false},
+        {"text":"จำนวน","value":"stockqty","show":true,"sortable": true},
+        {"text":"ราคา","value":"price","show":true,"sortable": true},
+        {"text":"หน่วย","value":"unitcode","show":false,"sortable": false},
+        {"text":"ขนาด/ปริมาณ","value":"size","show":false,"sortable": false},
+        {"text":"สี","value":"color","show":false,"sortable": false}
+      ],
+      "subHeaders": [
+        { "text": "Color", "value": "color" },
+        { "text": "Value", "value": "value" }
+      ]}
+    }
+}

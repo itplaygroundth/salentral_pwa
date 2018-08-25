@@ -1,0 +1,82 @@
+{
+  "auth": {
+    "agree": "OK",
+    "alreadyJoined": "พร้อมใช้งาน?",
+    "createAccount": "สร้างบัญชี",
+    "createNewAccount": "สร้างบัญชีใหม่",
+    "email": "Email",
+    "login": "เข้าสู่ระบบ",
+    "password": "รหัสผ่าน",
+    "signUp": "สมัครใช้งาน",
+    "termsOfUse": "Terms of Use.",
+    "welcome": "ป้อนข้อมูลเพื่อเข้าระบบ",
+    "logged":"เข้าสู่ระบบสำเร็จ!"
+  },
+  "breadcrumbs": {
+    "home": "Home"
+  },
+   "language": {
+    "brazilian_portuguese": "Português",
+    "thai": "Thai",
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "menu":{
+  "submenu":[
+  {
+  "title": "Sale",
+  "icon":"receipt",
+  "group": "sale",
+  "name":"sale",
+  "show":true,
+  "items": [
+    {"icon":"lock","name":"Open/Close Register","link":"Openregister","child":true},
+    {"icon":"lock","name":"Sale History","link":""},
+    {"icon":"lock","name":"Cash Manage","link":""}
+  ]
+},
+{"icon":"grid_on","name":"สินค้า"},
+{"icon":"account_circle","name":"ลูกค้า"},
+{"icon":"pie_chart","name":"รายงาน"},
+{"icon":"settings","name":"จัดการระบบ"}
+]},
+"Openregister": 
+{
+  "docdate":"Date/Time",
+  "cashdraw":"Cash Amount"
+}
+,
+  "menus":{
+    "pos": "POS",
+    "openregister":"เปิดกะ/ปิดกะ",
+    "salehistory":"ประวัติการขาย",
+    "cashmanage":"บริหารเงินขาย",
+    "stock": "สินค้า",
+    "product":"สินค้า",
+    "stockcontrol": "บริหารสินค้า",
+    "promotion":"โปรโมชั่น",
+    "pricelist":"ตารางราคา",
+    "suppliers":"ผู้จำหน่าย",
+    "producttags":"แท็กสินค้า",
+    "customers":"ลูกค้า",
+    "customer":"ลูกค้า",
+    "customergroup":"กลุ่มลูกค้า",
+    "reports":"รายงาน",
+    "registerreport":"รายงานการเปิด/ปิดกะ",
+    "salereport":"รายงานการขาย",
+    "stockreport":"รายงานสินค้า",
+    "receiptreport":"รายงานรับชำระ"
+    },
+    "user": {
+      "language": "เปลี่ยนภาษา",
+      "logout": "ออกจากระบบ",
+      "switch": "สลับผู้ใช้"
+    },
+    "stock":{
+      "orderproduct":"Order Product",
+      "countproduct":"Count Product",
+      "returnproduct":"Return Product",
+      "transferproduct":"Transfer Product",
+      "requisition":"Requisition Product"
+    }
+}
